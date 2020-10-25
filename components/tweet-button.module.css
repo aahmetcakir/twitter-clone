@@ -1,0 +1,17 @@
+.tweetButton {
+  background-color: rgb(29, 161, 242);
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 100%;
+  height: 47px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 999px;
+  margin-top: 12px;
+
+  & :hover {
+    background-color: rgb(29, 145, 218);
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,7 @@
+.navButtons {
+  display: flex;
+  flex-direction: column;
+  max-width: 251px;
+  max-height: 725px;
+  align-items: flex-start;
+}
