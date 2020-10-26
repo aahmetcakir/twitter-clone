@@ -5,6 +5,7 @@ import MenuButton from '../components/menu-button'
 import Navigation from '../components/navigaiton'
 import SvgHome from '../components/icon/Home'
 import TweetButton from '../components/tweet-button'
+import ProfileBox from '../components/profile-box'
 
 export default {
   title: 'Buttons',
@@ -27,4 +28,7 @@ export const Nav = () => {
 }
 export const TweetsButton = () => {
   return <TweetButton>Tweetle</TweetButton>
+}
+export const profile = () => {
+  return <ProfileBox />
 }

@@ -13,14 +13,13 @@
   font-size: 23px;
   margin-bottom: 8px;
   line-height: 1.13333px;
-
-  & :hover {
-    background-color: rgba(29, 161, 242, 0.1);
-    cursor: pointer;
+  transition: all .1s;
+  &+:hover {
+      background-color: rgba(29, 161, 242, 0.1);
+      cursor: pointer;
 
     svg {
       color: rgb(29, 161, 242);
-      background-color: initial;
     }
 
     span {
@@ -30,7 +29,6 @@
   svg {
     font-size: 26px;
     color: white;
-    background-color: black;
   }
 
   span {

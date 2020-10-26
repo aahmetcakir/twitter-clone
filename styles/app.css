@@ -5,5 +5,7 @@
   border: 0;
   font: inherit;
   outline: none;
+}
+body{
   background-color: black;
 }

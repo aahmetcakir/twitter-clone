@@ -13,6 +13,7 @@ import {
   More
 } from './icon'
 import TweetButton from './tweet-button'
+import ProfileBox from './profile-box'
 
 function Navigation() {
   return (
@@ -54,6 +55,8 @@ function Navigation() {
         <span>Daha fazla</span>{' '}
       </MenuButton>
       <TweetButton>Tweetle</TweetButton>
+
+      <ProfileBox />
     </nav>
   )
 }

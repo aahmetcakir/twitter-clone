@@ -9,9 +9,9 @@
   align-items: center;
   border-radius: 999px;
   margin-top: 12px;
-
-  & :hover {
+  transition: all .1s;
+}
+.tweetButton:hover{
     background-color: rgb(29, 145, 218);
     cursor: pointer;
-  }
 }

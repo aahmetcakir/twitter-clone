@@ -1,9 +1,10 @@
 import React from 'react'
+import Navigation from '../components/navigaiton'
 
 function HomePage() {
   return (
     <div>
-      <h1>Welcome to Next.js!</h1>
+      <Navigation />
     </div>
   )
 }
