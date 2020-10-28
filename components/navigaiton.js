@@ -19,7 +19,9 @@ function Navigation() {
   return (
     <nav className={styles.navButtons}>
       <MenuButton>
-        <Twitter />
+        <div className={styles.birdIcon}>
+          <Twitter />
+        </div>
       </MenuButton>
       <MenuButton>
         <Home />

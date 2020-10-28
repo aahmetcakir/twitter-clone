@@ -1,7 +1,7 @@
 .menuButton {
   background-color: black;
   max-width: 100%;
-  color: white;
+  color: rgb(217, 217, 217);
   height: 55px;
   border-radius: 999px;
   display: flex;
@@ -9,8 +9,8 @@
   justify-content: flex-start;
   padding: 12px;
   font-family: 'Source Sans Pro', sans-serif;
-  font-weight: bold;
-  font-size: 23px;
+  font-weight: 600;
+  font-size: 22px;
   margin-bottom: 8px;
   line-height: 1.13333px;
   transition: all .1s;
@@ -27,12 +27,12 @@
     }
   }
   svg {
-    font-size: 26px;
+    font-size: 29px;
     color: white;
   }
 
   span {
-    padding-left: 30px;
+    padding-left: 20px;
     padding-right: 12px;
     height: 0px;
   }
