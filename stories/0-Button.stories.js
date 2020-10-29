@@ -23,12 +23,12 @@ export const Menu = () => {
     </MenuButton>
   )
 }
-export const Nav = () => {
-  return <Navigation />
-}
 export const TweetsButton = () => {
   return <TweetButton>Tweetle</TweetButton>
 }
 export const profile = () => {
   return <ProfileBox />
+}
+export const Nav = () => {
+  return <Navigation />
 }

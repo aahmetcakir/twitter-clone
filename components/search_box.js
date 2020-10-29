@@ -4,7 +4,7 @@ import SvgSearch from './icon/Search'
 
 function SearchBox() {
   return (
-    <div>
+    <div className={styles.searchBox}>
       <input
         className={styles.searchInput}
         type="text"
