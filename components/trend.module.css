@@ -1,17 +1,14 @@
 .trend {
-    max-width: 320px;
-    max-height: 481;
-    width: 100%;
-    height: 100%;
     background-color: rgb(21, 24, 28);
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    border-bottom: 1.5px solid rgb(37,41,44);
+    padding: 12px 22px 12px 22px;
     transition: all .15s;
-
 }
 .trend:hover{
-     background-color: rgba(255,255,255,0.15);
+     background-color: rgba(255,255,255,0.05);
      cursor: pointer;
  }
 
@@ -48,6 +45,8 @@
     align-items: center;
     justify-content: center;
     margin-right: 8px;
+    position: relative;
+    left: 15px;
     border-radius: 999px;
     cursor: pointer;
     transition: all .15s;

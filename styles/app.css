@@ -1,11 +1,35 @@
 * {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font: inherit;
-  outline: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    outline: none;
 }
-body{
-  background-color: black;
-  height: 10000px;
+
+body {
+    background-color: black;
+    height: 10000px;
+}
+
+input:focus {
+    background-color: transparent;
+    border: 1px solid #1da1f2;
+}
+
+.layout {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.navi {
+    position: fixed;
+    left: 320px;
+}
+
+.trendBox {
+    margin-top: 5px;
+    position: fixed;
+    right: 320px;
+    top: 5px;
 }

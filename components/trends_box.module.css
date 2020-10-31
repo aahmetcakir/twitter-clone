@@ -1,0 +1,50 @@
+.trends{
+    background-color: rgb(21,24,28);
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 14px;
+}
+.icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 4px;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: all .15s;
+
+svg {
+    width: 28px;
+    height: 28px;
+    color: #1da1f2;
+}
+}
+.icon:hover {
+    background-color: rgba(29, 161, 242, 0.1);
+}
+.titleBox{
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(37,41,44);
+
+}
+.title{
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.moreDetails{
+    color: #1da1f2;
+    font-size: 15px;
+    padding: 15px 0 15px 25px;
+}
+.moreDetails:hover{
+    background-color: rgba(255,255,255,0.05);
+    cursor: pointer;
+
+}
+

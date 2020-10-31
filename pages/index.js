@@ -1,12 +1,17 @@
 import React from 'react'
 import Navigation from '../components/navigaiton'
-import SearchBox from '../components/search_box'
+import TrendMenu from '../components/tredsMenu'
 
 function HomePage() {
   return (
-    <div>
-      <Navigation />
-    </div>
+    <Layout className={'layout'}>
+      <Sidebar className={'navi'}>
+        <Navigation />
+      </Sidebar>
+      <TrendsSection className={'trendBox'}>
+        <TrendMenu />
+      </TrendsSection>
+    </Layout>
   )
 }
 

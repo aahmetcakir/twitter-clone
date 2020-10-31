@@ -1,14 +1,10 @@
 .navButtons {
     display: flex;
     flex-direction: column;
-    max-width: 251px;
-    max-height: 1080px;
-    height: 100%;
     align-items: flex-start;
-    margin-left: 300px;
-    position: fixed;
-    border-right: #2F3336 solid .8px;
+    /* position: fixed; */
     padding-right: 20px;
+
 }
 
 .birdIcon {
@@ -20,3 +16,4 @@ svg {
 }
 
 }
+
