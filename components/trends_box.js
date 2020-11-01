@@ -16,6 +16,9 @@ function TrendsBox() {
       <Trend>#29EkimCumhiyetBayramı</Trend>
       <Trend>#MaliyedenÖğrt60Bin</Trend>
       <Trend>#Kızılay Haftası</Trend>
+      <Trend>#29EkimCumhiyetBayramı</Trend>
+      <Trend>#29EkimCumhiyetBayramı</Trend>
+
       <h4 className={styles.moreDetails}>Daha fazla göster</h4>
     </div>
   )

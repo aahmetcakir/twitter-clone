@@ -1,18 +1,11 @@
 import React from 'react'
 import Navigation from '../components/navigaiton'
 import TrendMenu from '../components/tredsMenu'
+import Main from '../components/main'
+import Layout from '../components/layout'
 
 function HomePage() {
-  return (
-    <Layout className={'layout'}>
-      <Sidebar className={'navi'}>
-        <Navigation />
-      </Sidebar>
-      <TrendsSection className={'trendBox'}>
-        <TrendMenu />
-      </TrendsSection>
-    </Layout>
-  )
+  return <Layout />
 }
 
 export default HomePage

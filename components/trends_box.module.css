@@ -2,6 +2,7 @@
     background-color: rgb(21,24,28);
     font-family: 'Source Sans Pro', sans-serif;
     border-radius: 14px;
+    padding: 18px 0px 18px 0px;
 }
 .icon {
     width: 40px;
@@ -25,7 +26,7 @@ svg {
 }
 .titleBox{
     display: flex;
-    padding: 5px;
+    padding: 0px 6px 6px 6px;
     align-items: center;
     justify-content: space-between;
     border-bottom: 2px solid rgb(37,41,44);
@@ -39,8 +40,8 @@ svg {
 }
 .moreDetails{
     color: #1da1f2;
-    font-size: 15px;
-    padding: 15px 0 15px 25px;
+    font-size: 16px;
+    padding: 15px 0 10px 25px;
 }
 .moreDetails:hover{
     background-color: rgba(255,255,255,0.05);

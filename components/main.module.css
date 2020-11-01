@@ -1,0 +1,16 @@
+.main{
+    border-left: 1px solid #25292c;
+    border-right: 1px solid #25292c;
+    border-bottom: 1px solid #25292c;
+    margin-right: 30px;
+    max-width: 100%;
+
+
+@media (--t) {
+    border-left: 1px solid #25292c;
+    border-right: 1px solid #25292c;
+    border-bottom: 1px solid #25292c;
+    margin-right: 30px;
+    max-width: 640px;
+}
+}

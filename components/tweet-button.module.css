@@ -2,16 +2,19 @@
   background-color: rgb(29, 161, 242);
   color: white;
   font-family: 'Source Sans Pro', sans-serif;
-  width: 100%;
   display: flex;
-  padding: 20px;
   justify-content: center;
   align-items: center;
+  margin-left: 5px;
   border-radius: 999px;
   margin-top: 12px;
   transition: all .1s;
+@media (--d) {
+  padding:20px;
+  width:100%;
+}
 }
 .tweetButton:hover{
-    background-color: rgb(29, 145, 218);
-    cursor: pointer;
+  cursor: pointer;
+  background-color: rgb(29, 145, 218);
 }

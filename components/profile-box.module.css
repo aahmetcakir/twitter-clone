@@ -8,14 +8,14 @@
     border-radius: 999px;
     padding: 12px;
     position: relative;
-    bottom: -180px;
+    top: 10px;
     transition: all .1s;
 }
 .profileBox:hover{
     background-color: rgba(29, 161, 242, 0.1);
 }
 .icon{
-    padding-left:30px ;
+    padding-left:25px ;
     width: 18px;
     height: 18px;
 }

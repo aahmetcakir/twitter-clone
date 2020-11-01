@@ -1,0 +1,16 @@
+.tweetButtons {
+    background-color:#1da1f2 ;
+    color: white;
+    font-size:18px;
+    border-radius: 999px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .1s;
+    &:hover{
+         cursor: pointer;
+         background-color: rgb(29, 145, 218);
+     }
+}
+
