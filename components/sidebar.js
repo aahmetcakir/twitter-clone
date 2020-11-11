@@ -5,7 +5,13 @@ import useWindowSize from '../hooks/useWindowsSize'
 
 function Sidebar() {
   const size = useWindowSize()
-  return <Navigation flat={size.width < 1270} />
+  return <div className={styles.sidebar}>
+  <div className={styles.sidebars}>
+
+   <Navigation flat={size.width < 1270} />
+  </div>
+
+  </div>
 }
 
 export default Sidebar

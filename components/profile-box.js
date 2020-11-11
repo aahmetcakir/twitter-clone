@@ -20,7 +20,7 @@ function ProfileBox({ flat = false, pp }) {
           </div>
         </>
       )}
-    </Button>
+    </Button> 
   )
 }
 

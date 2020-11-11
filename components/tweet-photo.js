@@ -9,7 +9,7 @@ import SvgShare from './icon/Share'
 
 // todo isim .nickname ve profil foto değiştir
 
-function TweetPhoto({ children, dk, pp }) {
+function TweetPhoto({ children, dk, pp ,name,nickname}) {
   return (
     <div className={styles.post}>
       <div className={styles.postAll}>

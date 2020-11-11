@@ -8,8 +8,11 @@
     border-radius: 999px;
     padding: 12px;
     position: relative;
-    top: 10px;
     transition: all .1s;
+    @media (min-height: 880px) {
+        top: 180px;
+    
+    }
 }
 .profileBox:hover{
     background-color: rgba(29, 161, 242, 0.1);
