@@ -6,6 +6,7 @@ import Profile from './profile'
 function ProfileBox({ flat = false, pp }) {
   return (
     <Button className={styles.profileBox}>
+
       <div className={styles.img}>
         <Profile children={pp} />
       </div>

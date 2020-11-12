@@ -1,4 +1,5 @@
 .sidebars{
+    margin-top: 12px;
     position: sticky;
-    top: 0px;
+    top: 12px;
 }
