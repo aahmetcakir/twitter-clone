@@ -1,9 +1,9 @@
 # twitter-clone
-LİNKS
- WEBSİTE: https://twitter-clone-navy.vercel.app/
-USED TOOLS
- React
- Next
- Storybook
- Svgr
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+LİNKS<br/>
+ WEBSİTE: https://twitter-clone-navy.vercel.app/<br/><br/>
+USED TOOLS<br/>
+ React<br/>
+ Next<br/>
+ Storybook<br/>
+ Svgr<br/>
+
